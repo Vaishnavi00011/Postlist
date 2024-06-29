@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loader{
+  border-top: 8px solid red ;
+  animation: circle 1s infinite linear;
+}
+@keyframes circle {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
+}
